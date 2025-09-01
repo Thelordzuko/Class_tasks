@@ -21,7 +21,7 @@ print(f"Thank you for your time! Your information is: \nName: {name} \nState of 
 
 #Task 3
 # A Python program for a simple timetable for a Nigerian secondary school using tab spacing and new lines
-print("\t\t\t\t\t\t\tFIRELORD SECONDARY SCHOOL, ABEOKUTA, OGUN STATE.")
+print("\t\t\t\t\t\t\tZUKO SECONDARY SCHOOL, ABEOKUTA, OGUN STATE.")
 print("\t\t\t\t\t\t\t\t\tTIME-TABLE")
 print("___________________________________________________________________________________________________________________________________________________________ ")
 print("|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n| DAY\TIME\t 8:00am - 10:00am\t 10:00am - 12:00pm\t 12:00pm -  2:00pm\t 2:00pm - 3:00pm\t 3:00pm - 5:00pm\t 5:00pm - 6:00pm  |")

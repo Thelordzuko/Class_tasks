@@ -12,8 +12,7 @@ name = input("What is your name? ")
 print(f"Hello {name}!")
 
 # 4. 
-character = "Oluwaseyi" 
-print(character.find(character[-1])+1) 
+0
 
 # 5.
 entry = "Hello World"
@@ -61,7 +60,7 @@ print(address.replace(" ", "_"))
 
 # 14.
 fruit = "Banana"
-print(fruit.count"a")
+print(fruit.count("a"))
 
 # 15.
 entry = "Greatness from small beginnings."
