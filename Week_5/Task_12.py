@@ -1,12 +1,11 @@
-print("\t\t\t\tWELCOME TO THE NIGERIAN AGRICULTURAL USSD SYSTEM\n This interface was created to help Nigerian farmers access real-time market prices and manage basic crop information.)")
+print("\t\t\t\tWELCOME TO THE NIGERIAN AGRICULTURAL USSD SYSTEM\n This interface was created to help Nigerian farmers access real-time market prices and manage basic crop information.")
 
 while True:
     try:
         entry = input("Please proceed below:\n\t1. Register (for new users)\n\t2. Log in (for existing users)\n\t3. Exit\t\t").strip()
         if entry == "":
             print("Entry cannot be empty, try again!")
-        elif entry.isalpha():
-            print("Please select from 1-3")
+        
             continue
         elif entry == "1":
             print("Let's get you signed up!")
@@ -33,7 +32,7 @@ while True:
                         elif number.isdigit() and len(number) == 11:
 
                             while True:
-                                location = input("Enter location of your business(State): ")
+                                location = input("Enter location of your business(State): ").strip()
                                 if location == "":
                                     print("Location cannot be empty!")
                                     continue
